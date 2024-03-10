@@ -6,7 +6,11 @@
     line-height: 1.6;
 }
 
+a {
 
+text-decoration: none;
+
+}
 /* Section Backgrounds */
 
 /* Color theme hex
@@ -51,8 +55,8 @@
 
                 /* This we be the hero image section or hero section  */
             background-image: url("./img/WON1.png");
-            height: auto;
-            padding: 140px;
+            height: 1280px;
+            padding: 12px;
                 text-align: center;
                 background-repeat: no-repeat;
                 background-color: #F3E0D2;
@@ -60,7 +64,7 @@
 
 
             .Join-btn{
-                
+                 
                     height: 2.2em;
                 border-radius: 65px;
             background-color: #8C4573;
@@ -68,13 +72,15 @@
             font-weight: 300;
             color: white;
             width: 220px;
-            margin-left: 2025px;
+                margin: auto;
+               
             }
 
 
 
 .Titlea {
-margin-left: 1425px;
+/* margin-left: 1425px; */
+margin-top: 2.2em;
 font-size:152px;
 letter-spacing: 0.56rem;
 font-weight: 800;
@@ -88,12 +94,12 @@ border-width: 8px solid;
 letter-spacing: 0.082em;
 font-size: 1.33em;
 font-weight: 400;
-text-align:end;
+text-align:center;
 padding: 20px;
 
 }
 .Titleb , .Titlec{
-margin-left: 1425px;
+/* margin-left: 1425px; */
 font-size:52px;
 letter-spacing: 0.56rem;
 font-weight: 300;
