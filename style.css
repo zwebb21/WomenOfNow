@@ -50,7 +50,7 @@
             .section1a {
 
                 /* This we be the hero image section or hero section  */
-            background-image: url("/img/WON1.png");
+            background-image: url("./img/WON1.png");
             height: auto;
             padding: 140px;
                 text-align: center;
