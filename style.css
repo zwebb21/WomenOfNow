@@ -15,9 +15,7 @@
 #CE7ED9
 #8973D9 
 #F2F2F2 /white
-
 */
-
 
 /* General Styles */
 /* .container {
@@ -124,9 +122,9 @@ letter-spacing: 2.9px;
 
 
 .section3 {
-    background-color: #ffffff;
+    /* background-color: #F3E0D2; */
 
-    color: black;
+    color: rgb(48, 45, 45);
 }
 
 .section3 p {
@@ -142,16 +140,37 @@ letter-spacing: 2.9px;
 
 #section3-info{
 
-background-color: #fbeee5;
+background-color: #f0e5eed1;
 border-radius: 65px;
+margin-top: 3.2em;
+height: fit-content;
+}
+
+.embed{
+/* the instagram feed embed */
+
+padding: 120px;
+margin: auto;
 }
 
 
 
+.Donna-Title{
+
+font-size:9em;
+font-weight: 600;
+color:#8C4573;
+
+}
+
+/* End of section 3  */
 
 .section4 {
     background-color:#C429D9;
 }
+
+
+
 .section5 {
     background-color: #ff4343;
 }
