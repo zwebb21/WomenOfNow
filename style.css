@@ -195,3 +195,20 @@ color:#8C4573;
             font-size: x-large;
                 text-align: center;
         }
+
+
+
+
+        .donnabw{
+
+            border-radius: 50%;
+            width: 500px;
+            height: 500px;
+            padding: 20px;
+        }
+
+        .bold-word{
+
+color:#f4cdba;
+font-weight: 800;
+        }
