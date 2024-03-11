@@ -27,6 +27,59 @@ text-decoration: none;
     margin: 0 auto;
     overflow: hidden;
 } */
+.bible-study-box{
+background-color:#8973D9;
+padding: 20px;
+border-radius: 20px;
+margin-bottom: 1.5rem;
+}
+.bible-study-box-list {
+letter-spacing: 0.07em;
+font-size: x-large;
+color: white;
+font-weight: 500;
+
+}
+
+
+.wk-title {
+
+
+    font-size: 154px;
+    font-weight: 800;
+color: #F3E0D2;
+
+}
+.icon{
+
+width:60px;
+height: 60px;
+padding: 2px;
+}
+
+ul {
+
+
+    list-style: none;
+}
+.studies{
+margin:0;
+padding: 150px;
+text-align: center;
+flex-direction: row;
+justify-content: center;
+text-decoration: none;
+justify-content: space-between;
+
+
+}
+
+
+
+
+
+
+
 
 /* Paragraph Styles */
 .section p {
@@ -172,7 +225,7 @@ color:#8C4573;
 /* End of section 3  */
 
 .section4 {
-    background-color:#C429D9;
+    background-color:  #F3E0D2;;
 }
 
 
@@ -209,6 +262,6 @@ color:#8C4573;
 
         .bold-word{
 
-color:#f4cdba;
+color:#8C4573;
 font-weight: 800;
         }
