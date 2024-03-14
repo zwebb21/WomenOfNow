@@ -95,9 +95,16 @@ justify-content: space-between;
 
 
 
+.multiwomen-img{
+
+width:1200px;
+height: auto;
+
+}
+
 .section1 {
     /* title banner section */
-    background-color: #8C4573;
+    background-color: #731A44;
     height: 122px;
     padding: 30px 0;
     text-align: center;
@@ -107,7 +114,7 @@ justify-content: space-between;
             .section1a {
 
                 /* This we be the hero image section or hero section  */
-            background-image: url("./img/WON1.png");
+            background-image: url("./img/multi-women.jpg");
             height: 1280px;
             padding: 12px;
                 text-align: center;
@@ -137,7 +144,7 @@ margin-top: 2.2em;
 font-size:152px;
 letter-spacing: 0.56rem;
 font-weight: 800;
-color: #C429D9;
+color: #8C4573;
 border: #432137;
 border-width: 8px solid;
 }
@@ -162,7 +169,7 @@ margin-top: 1.23em;
 /* End of section 1 css  */
 
 .section2 {
-    background-color: #8973D9;
+    background-color: #A61F5E;
 }
 
 
@@ -231,7 +238,11 @@ color:#8C4573;
 
 
 .section5 {
-    background-color: #ff4343;
+   background-color: #731A44;
+
+    
+
+
 }
 
 /* Heading Styles */
@@ -265,3 +276,70 @@ color:#8C4573;
 color:#8C4573;
 font-weight: 800;
         }
+
+
+
+        .social-icons {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+          }
+          
+          .social-icons li {
+            display: inline-block;
+            margin-right: 10px; /* Adjust spacing between icons */
+          }
+          
+          .social-icons li:last-child {
+            margin-right: 0; /* Remove margin from the last icon */
+          }
+          
+          .social-icons li a {
+            color: goldenrod;
+            font-size: x-large;
+            letter-spacing: 0.15em;
+            font-weight: 500;
+            text-decoration: none;
+            
+          }
+          
+          .social-icons li a img {
+            width: 40px; /* Adjust the size of the icons */
+            height: 40px; /* Adjust the size of the icons */
+          }
+          
+          .footer-links {
+            color: white;
+            font-size:x-large ;
+            font-weight:400 ;
+            display: flex;
+          flex-direction: row;
+            padding: 0;
+            justify-content: center; /* Center the content horizontally */            
+            flex: auto;
+            /* privact and terms and conditions links here.  */
+        }
+        
+        
+        .footer-links a {
+            margin-top: 15px;
+            padding: 15px;
+              margin-right: 55px;
+            color: goldenrod;
+            list-style: circle;
+            text-decoration: underline;
+
+          }
+
+
+          .logo-caption{
+                color: goldenrod;
+                
+                font-size: medium;
+          }
+
+          .footer-copyright{
+
+            font-size: larger;
+            color: black;
+          }
