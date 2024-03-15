@@ -1,10 +1,21 @@
  /* Reset CSS */
- body, html {
+ body,
+ html,
+ p,
+ h1,
+ h2,
+ h3
+  {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
 }
+
+.container{
+
+padding: 0 1em;
+
+}
+
 
 a {
 
@@ -101,8 +112,7 @@ justify-content: space-between;
 
 .multiwomen-img{
 
-width:1200px;
-height: auto;
+min-height: fit-content;
 
 }
 
@@ -118,12 +128,12 @@ height: auto;
             .section1a {
 
                 /* This we be the hero image section or hero section  */
-            background-image: url("./img/multi-women.jpg");
-            height: 1280px;
+            /* background-image: url("./img/multi-women.jpg"); */
+            min-height: 1280px;
             padding: 12px;
                 text-align: center;
                 background-repeat: no-repeat;
-                background-color: #F3E0D2;
+                background-color: #f8f7f7;
             }
 
 
