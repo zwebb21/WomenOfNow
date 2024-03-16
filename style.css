@@ -117,7 +117,7 @@ min-height: fit-content;
 }
 
 .section1 {
-    /* title banner section */
+    /* title banner section z */
     background-color: #731A44;
     height: 122px;
     padding: 30px 0;
@@ -273,6 +273,78 @@ background-size: cover;
 
 
 }
+
+
+
+.section6 {
+
+padding: 20px;
+
+}
+
+
+
+.section7{
+
+background-color: black;
+
+
+/* section with the gold praying women hands */
+
+}
+
+#bible-qoute2{
+
+margin-top:14rem;
+
+}
+
+.gold-bible-qoute{
+color: goldenrod;
+
+}
+
+
+
+
+
+#praying-left-text{
+
+margin: auto;
+
+
+}
+
+.section7 h1{
+padding: 20px;
+margin-top: 2.2em;
+font-size: 85px;
+color: white;
+font-weight: 500;
+}
+
+#img-taglines{
+margin-top: 2.3em;
+padding: 10px;
+margin-bottom: 6.3em;
+
+}
+.section6 img{
+/* trg section 6 images. 
+
+
+
+*/
+  margin-top: 23px;
+  border-radius: 25px;
+box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5); /* Add drop shadow */
+
+
+
+}
+
+
+
 
 /* Heading Styles */
 .section h2 {
