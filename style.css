@@ -1,12 +1,27 @@
  /* Reset CSS */
- body, html {
+ body,
+ html,
+ p,
+ h1,
+ h2,
+ h3
+  {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+}
+
+.container{
+
+padding: 0 1em;
+
 }
 
 
+a {
+
+text-decoration: none;
+
+}
 /* Section Backgrounds */
 
 /* Color theme hex
@@ -23,6 +38,63 @@
     margin: 0 auto;
     overflow: hidden;
 } */
+.bible-study-box{
+background-color:#8973D9;
+padding: 20px;
+border-radius: 20px;
+margin-bottom: 1.5rem;
+
+
+box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5); /* Add drop shadow */
+  padding: 20px;
+}
+.bible-study-box-list {
+letter-spacing: 0.07em;
+font-size: x-large;
+color: white;
+font-weight: 500;
+
+}
+
+
+.wk-title {
+
+
+    font-size: 154px;
+    font-weight: 800;
+color: #F3E0D2;
+
+}
+.icon{
+
+width:60px;
+height: 60px;
+padding: 2px;
+}
+
+ul {
+
+
+    list-style: none;
+}
+.studies{
+margin:0;
+padding: 150px;
+text-align: center;
+flex-direction: row;
+justify-content: center;
+text-decoration: none;
+justify-content: space-between;
+
+
+}
+
+
+
+
+
+
+
 
 /* Paragraph Styles */
 .section p {
@@ -38,9 +110,15 @@
 
 
 
+.multiwomen-img{
+
+min-height: fit-content;
+
+}
+
 .section1 {
-    /* title banner section */
-    background-color: #8C4573;
+    /* title banner section z */
+    background-color: #731A44;
     height: 122px;
     padding: 30px 0;
     text-align: center;
@@ -50,6 +128,10 @@
             .section1a {
 
                 /* This we be the hero image section or hero section  */
+
+            /* background-image: url("./img/multi-women.jpg"); */
+            min-height: 1280px;
+            padding: 12px;
             background-image: url("./img/WON1.png");
 
 
@@ -59,12 +141,12 @@
             padding: 140px;
                 text-align: center;
                 background-repeat: no-repeat;
-                background-color: #F3E0D2;
+                background-color: #f8f7f7;
             }
 
 
             .Join-btn{
-                
+                 
                     height: 2.2em;
                 border-radius: 65px;
             background-color: #8C4573;
@@ -72,17 +154,19 @@
             font-weight: 300;
             color: white;
             width: 220px;
-            margin-left: 2025px;
+                margin: auto;
+               
             }
 
 
 
 .Titlea {
-margin-left: 1425px;
+/* margin-left: 1425px; */
+margin-top: 2.2em;
 font-size:152px;
 letter-spacing: 0.56rem;
 font-weight: 800;
-color: #C429D9;
+color: #8C4573;
 border: #432137;
 border-width: 8px solid;
 }
@@ -92,13 +176,13 @@ border-width: 8px solid;
 letter-spacing: 0.082em;
 font-size: 1.33em;
 font-weight: 400;
-text-align:end;
+text-align:center;
 padding: 20px;
 
 }
 .Titleb , .Titlec{
-margin-left: 1425px;
-font-size:52px;
+/* margin-left: 1425px; */
+font-size:42px;
 letter-spacing: 0.56rem;
 font-weight: 300;
 color:#8C4573;
@@ -106,8 +190,17 @@ margin-top: 1.23em;
 }
 /* End of section 1 css  */
 
+
+
+.Titled{
+    font-size: 35px;
+    color:#8C4573;
+    font-weight: 800;
+
+}
+
 .section2 {
-    background-color: #8973D9;
+    background-color: #A61F5E;
 }
 
 
@@ -170,14 +263,96 @@ color:#8C4573;
 /* End of section 3  */
 
 .section4 {
-    background-color:#C429D9;
-}
+    background-color:  #F3E0D2;;
+
+    background-image: url(img/womengroupgrey6.png);
+    background-blend-mode: normal;
+background-size: cover;
+
+  }
+
 
 
 
 .section5 {
-    background-color: #ff4343;
+   background-color: #731A44;
+
+    
+
+
 }
+
+
+
+.section6 {
+
+padding: 20px;
+
+}
+
+
+
+.section7{
+
+background-color: black;
+
+
+/* section with the gold praying women hands */
+
+}
+
+#bible-qoute2{
+
+margin-top:14rem;
+
+}
+
+.gold-bible-qoute{
+color: goldenrod;
+
+}
+
+
+
+
+
+#praying-left-text{
+
+margin: auto;
+
+
+}
+
+.section7 h1{
+padding: 20px;
+margin-top: 2.2em;
+font-size: 85px;
+color: white;
+font-weight: 500;
+}
+
+#img-taglines{
+margin-top: 2.3em;
+padding: 10px;
+margin-bottom: 6.3em;
+
+}
+.section6 img{
+/* trg section 6 images. 
+
+
+
+*/
+  margin-top: 23px;
+  border-radius: 25px;
+box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5); /* Add drop shadow */
+
+
+
+}
+
+
+
 
 /* Heading Styles */
 .section h2 {
@@ -193,3 +368,114 @@ color:#8C4573;
             font-size: x-large;
                 text-align: center;
         }
+
+
+
+        .donnabw{
+
+            border-radius: 50%;
+            width: 500px;
+            height: 500px;
+            padding: 20px;
+        }
+
+        .bold-word{
+
+color:#8C4573;
+font-weight: 800;
+        }
+
+
+
+        .gold-word{
+
+color:goldenrod;
+font-weight: 800;
+        }
+
+
+
+        .social-icons {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+          }
+          
+          .social-icons li {
+            display: inline-block;
+            margin-right: 10px; /* Adjust spacing between icons */
+          }
+          
+          .social-icons li:last-child {
+            margin-right: 0; /* Remove margin from the last icon */
+          }
+          
+          .social-icons li a {
+            color: goldenrod;
+            font-size: x-large;
+            letter-spacing: 0.15em;
+            font-weight: 500;
+            text-decoration: none;
+            
+          }
+          
+          .social-icons li a img {
+            width: 40px; /* Adjust the size of the icons */
+            height: 40px; /* Adjust the size of the icons */
+          }
+          
+          .footer-links {
+            color: white;
+            font-size:x-large ;
+            font-weight:400 ;
+            display: flex;
+          flex-direction: row;
+            padding: 0;
+            justify-content: center; /* Center the content horizontally */            
+            flex: auto;
+            /* privact and terms and conditions links here.  */
+        }
+        
+        
+        .footer-links a {
+            margin-top: 15px;
+            padding: 15px;
+              margin-right: 55px;
+            color: goldenrod;
+            list-style: circle;
+            text-decoration: underline;
+
+          }
+
+
+          .logo-caption{
+                color: goldenrod;
+                
+                font-size: medium;
+          }
+
+          .footer-copyright{
+
+            font-size: larger;
+            color: black;
+          }
+
+
+          .bible-study-clip{
+            border-radius:45px;
+            /* filter: blur(1px); Adjust the blur amount as needed */
+            z-index: 1;
+          }
+
+          .path
+        {   margin: auto;
+            width: auto;
+     
+        }
+
+        .dark
+    {
+
+        color: black;
+    }
+
