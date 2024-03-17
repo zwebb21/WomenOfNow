@@ -128,9 +128,17 @@ min-height: fit-content;
             .section1a {
 
                 /* This we be the hero image section or hero section  */
+
             /* background-image: url("./img/multi-women.jpg"); */
             min-height: 1280px;
             padding: 12px;
+            background-image: url("./img/WON1.png");
+
+
+/*              in github pages this image wont show unless i add a dot infront of it. 
+             */
+            height: auto;
+            padding: 140px;
                 text-align: center;
                 background-repeat: no-repeat;
                 background-color: #f8f7f7;
@@ -363,7 +371,6 @@ box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5); /* Add drop shadow */
 
 
 
-
         .donnabw{
 
             border-radius: 50%;
@@ -471,3 +478,4 @@ font-weight: 800;
 
         color: black;
     }
+
