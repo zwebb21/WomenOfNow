@@ -22,6 +22,10 @@ a {
 text-decoration: none;
 
 }
+/* End of global styles */
+/* Media query  - start here.  */
+
+
 /* Section Backgrounds */
 
 /* Color theme hex
@@ -38,6 +42,11 @@ text-decoration: none;
     margin: 0 auto;
     overflow: hidden;
 } */
+
+
+
+
+
 .bible-study-box{
 background-color:#8973D9;
 padding: 20px;
@@ -112,8 +121,7 @@ justify-content: space-between;
 
 .multiwomen-img{
 
-min-height: fit-content;
-
+width: 500px;
 }
 
 .section1 {
@@ -129,11 +137,12 @@ min-height: fit-content;
 
                 /* This we be the hero image section or hero section  */
 
-            /* background-image: url("./img/multi-women.jpg"); */
-            min-height: 1280px;
+            min-height: 1780px;
             padding: 12px;
-            background-image: url("./img/WON1.png");
 
+              background-position-y: 38.5em;
+              background-blend-mode:multiply;
+              background-image: url("/img/women-nature-2/Diverse-Group-of-Women.jpg");
 
 /*              in github pages this image wont show unless i add a dot infront of it. 
              */
@@ -162,7 +171,7 @@ min-height: fit-content;
 
 .Titlea {
 /* margin-left: 1425px; */
-margin-top: 2.2em;
+margin-top: 0.1em;
 font-size:152px;
 letter-spacing: 0.56rem;
 font-weight: 800;
@@ -303,7 +312,7 @@ background-color: black;
 
 #bible-qoute2{
 
-margin-top:14rem;
+margin-top:2rem;
 
 }
 
@@ -313,7 +322,18 @@ color: goldenrod;
 }
 
 
+#praying-women-img{
+/* praying women image  */
+margin-top: 23.4rem;
 
+}
+
+#praying-right-text{
+/* text on right side of praying women */
+margin-top: 4.5rem;
+padding: 24px;
+
+}
 
 
 #praying-left-text{
@@ -322,10 +342,14 @@ margin: auto;
 
 
 }
+/* 
 
+
+
+
+*/
 .section7 h1{
-padding: 20px;
-margin-top: 2.2em;
+padding: 30px;
 font-size: 85px;
 color: white;
 font-weight: 500;

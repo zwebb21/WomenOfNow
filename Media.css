@@ -5,8 +5,19 @@
 
 
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 768px) {
  
-
+  .Titlea {
+    /* margin-left: 1425px; */
+    margin-top: 1.2em;
+    font-size:100px;
+    letter-spacing: 0.56rem;
+    font-weight: 500;
+    color: #8C4573;
+    border: #432137;
+    border-width: 8px solid;
+    }
+    
+ 
 
   }
