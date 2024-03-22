@@ -139,7 +139,7 @@ width: 500px;
 
             min-height: 1780px;
             padding: 12px;
-
+               background-size: contain;
               background-position-y: 38.5em;
               background-blend-mode:multiply;
               background-image: url("/img/women-nature-2/Diverse-Group-of-Women.jpg");
@@ -202,25 +202,34 @@ margin-top: 1.23em;
 
 
 .Titled{
-    font-size: 35px;
+    /* font-size; */
+/* What will you learn at 7 WEEKS OF COURAGE */
+    margin-top: 1.2em;
     color:#8C4573;
     font-weight: 800;
-
+margin-bottom: 1.5em;
+font-size: 84px;
+border-radius: 16px;
+border: 1px solid rgb(255, 255, 255); /* Set the border width, style, and color */
+padding: 10px;
+word-spacing: 15px;
+letter-spacing: 0.038em;
 }
 
 .section2 {
-    background-color: #A61F5E;
+    background-color: #8C4573;
+    min-height: 12px;
 }
 
 
 .mstatement{
 color: rgb(255, 252, 252);
 font-size: x-large;
-font-weight: 900;
-padding: 94px;
+font-weight: 200;
+padding: 4px;
 line-height: 4em;
-letter-spacing: 2.9px;
-
+letter-spacing: 3.3px;
+min-height: 56px;
 
 }
 
@@ -235,9 +244,9 @@ letter-spacing: 2.9px;
 
 .section3 p {
 
-    margin-top: 3em;
-    font-size: xx-large;
-    font-weight: 400;
+    margin-top: 0.5em;
+    font-size: large;
+    font-weight: 500;
     line-height: 2.2em;
     padding:30px;
 }
@@ -248,8 +257,8 @@ letter-spacing: 2.9px;
 
 background-color: #f0e5eed1;
 border-radius: 65px;
-margin-top: 3.2em;
-height: fit-content;
+margin-top: 2.2em;
+
 }
 
 .embed{
@@ -262,8 +271,8 @@ margin: auto;
 
 
 .Donna-Title{
-
-font-size:9em;
+margin-top: 1.3em;
+font-size:8em;
 font-weight: 600;
 color:#8C4573;
 
@@ -284,8 +293,7 @@ background-size: cover;
 
 
 .section5 {
-   background-color: #731A44;
-
+  background-image: linear-gradient(to right bottom, #8c4573, #863b67, #80305b, #7a2650, #731a44);
     
 
 
@@ -396,11 +404,19 @@ box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5); /* Add drop shadow */
 
 
         .donnabw{
-
+          margin-top: 8.8em;
+          margin-inline-start: 3em;
+float: left;
             border-radius: 50%;
-            width: 500px;
-            height: 500px;
+            min-width: 330px;
+          
+            max-height: 350px; 
             padding: 20px;
+
+
+
+
+
         }
 
         .bold-word{
@@ -436,10 +452,11 @@ font-weight: 800;
           
           .social-icons li a {
             color: goldenrod;
-            font-size: x-large;
-            letter-spacing: 0.15em;
-            font-weight: 500;
+            font-size: medium;
+            letter-spacing: 0.25em;
+            font-weight: 400;
             text-decoration: none;
+
             
           }
           
@@ -450,14 +467,17 @@ font-weight: 800;
           
           .footer-links {
             color: white;
-            font-size:x-large ;
+            font-size:medium ;
             font-weight:400 ;
             display: flex;
           flex-direction: row;
             padding: 0;
             justify-content: center; /* Center the content horizontally */            
             flex: auto;
-            /* privact and terms and conditions links here.  */
+            /* privacy and terms and conditions links here.  */
+
+
+            letter-spacing: 0.156em;
         }
         
         

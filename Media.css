@@ -9,7 +9,7 @@
  
   .Titlea {
     /* margin-left: 1425px; */
-    margin-top: 1.2em;
+    margin-top: 0.2em;
     font-size:100px;
     letter-spacing: 0.56rem;
     font-weight: 500;
@@ -19,5 +19,26 @@
     }
     
  
+              .section1a{
+
+              min-height: 1568px;
+              background-position-y: 75.5em;
+
+              }
+
+
+
+                                      .donnabw{
+                                          margin-top: 4.4em;
+                                          padding: 10px;
+                                        
+
+                                      }
+
+.Donna-Title{
+
+  font-size:5em;
+
+  }
 
   }
