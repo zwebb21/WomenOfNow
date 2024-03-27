@@ -4,9 +4,44 @@
 /* use this a learning oppurtunity to improve skills. */
 
 
+/* added media queries  */
+
+
+
+
+
+@media screen and (max-width:300px){
+
+.Titled{
+
+font-size: xx-large;
+margin: auto;
+margin-bottom: 2.3em;
+
+}
+.bible-study-box{
+min-width: fit-content;
+margin: 0;
+padding: 0;
+
+
+}
+.bible-study-box-list{
+  font-size: medium;
+text-align: center;
+width: 100%;
+}
+}
+
+
+.wk-title{
+font-size: small;
+
+}
+
 
 @media screen and (max-width: 768px) {
- 
+ /* for small laptops */
   .Titlea {
     /* margin-left: 1425px; */
     margin-top: 0.2em;
@@ -29,16 +64,155 @@
 
 
                                       .donnabw{
-                                          margin-top: 4.4em;
-                                          padding: 10px;
+
+                                          margin-top: 3.4em;
+                                          padding: 20px;
                                         
 
                                       }
 
 .Donna-Title{
-
-  font-size:5em;
+  margin-top: 12.3em;
+  font-size:24px;
 
   }
 
+
+
+  .wk-title {
+    font-size: 12px;
+    font-weight: 800;
+  color: #F3E0D2;
+  
+  }
+
+
+
+  .bible-study-box{
+    background-color:#8973D9;
+    margin-bottom: 2.5rem;
+      width: 100%;
+    }
+
+
+    .bible-study-box-list {
+      font-size:44px;
+      letter-spacing: 1.2em;
+      color: white;
+      font-weight: 500;
+      
+      }
+  }
+
+
+/* ipads and small macbook pro.*/
+  @media screen and (max-width: 1280px) {
+    
+
+    .section1a{
+
+   
+      background-position-y: 66.5em;
+
+      }
+
+
+
+      .donnabw{
+        margin-top: 2.4em;
+        padding: 5px;
+      
+
+
+    }
+
+
+      .Donna-Title{
+        padding: 8px;
+        font-size:4em;
+      margin-top: 3.1em;
+        }
+
+
+
+
+        #section3-info{
+          margin-top:7.4em ;
+          width: 100%;
+
+        }
+
+
+
+
+
+        .bible-study-box{
+          background-color:#8973D9;
+          border-radius: 20px;
+          margin-bottom: 1.5rem;
+          box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5); /* Add drop shadow */
+            padding: 20px;
+          
+          }
+          
+          
+          .col-lg-2{
+width:90%
+
+          }
+          .bible-study-box-list {
+          letter-spacing: 0.2em;
+          font-size: small;
+          color: white;
+          font-weight: 500;
+          
+          
+          }
+        
+          
+.wk-title h2{
+  font-size: 12px;
+  font-weight: 800;
+color: #F3E0D2;
+
+}
+
+  }  /* closing tag */
+
+
+
+
+  @media screen and (min-width: 1440px){
+
+
+    .section1a{
+
+      height:2158px;
+      background-position-y: 36.5em;
+
+      }
+
+.bible-study-box-list{
+font-size: x-large;
+margin: auto;
+text-align: center;
+width: fit-content;
+
+}
+
+
+
+
+
+
+  }
+
+
+  @media screen and (max-width:2440px){
+ 
+ .section1a{
+
+   background-position-y: 76.5em;
+
+ }
   }

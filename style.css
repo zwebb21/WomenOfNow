@@ -57,6 +57,9 @@ margin-bottom: 1.5rem;
 box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5); /* Add drop shadow */
   padding: 20px;
 }
+
+
+
 .bible-study-box-list {
 letter-spacing: 0.07em;
 font-size: x-large;
@@ -140,9 +143,9 @@ width: 500px;
             min-height: 1780px;
             padding: 12px;
                background-size: contain;
-              background-position-y: 38.5em;
+              background-position-y: 18.5em;
               background-blend-mode:multiply;
-              background-image: url("/img/women-nature-2/Diverse-Group-of-Women.jpg");
+              background-image: url("./img/women-nature-2/Diverse-Group-of-Women.jpg");
 
 /*              in github pages this image wont show unless i add a dot infront of it. 
              */
