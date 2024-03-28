@@ -130,7 +130,7 @@ width: 500px;
 .section1 {
     /* title banner section z */
     background-color: #731A44;
-    height: 122px;
+    height: 142px;
     padding: 30px 0;
     text-align: center;
     color: #fff;
@@ -145,7 +145,7 @@ width: 500px;
                background-size: contain;
               background-position-y: 18.5em;
               background-blend-mode:multiply;
-              background-image: url("./img/women-nature-2/Diverse-Group-of-Women.jpg");
+              background-image: url("/img/women-nature-2/Diverse-Group-of-Women.jpg");
 
 /*              in github pages this image wont show unless i add a dot infront of it. 
              */
@@ -169,6 +169,16 @@ width: 500px;
                 margin: auto;
                
             }
+
+.Join-Title-Banner{
+line-height: 1.6em;
+padding: 20px;
+letter-spacing: 0.62px;
+font-weight: 220;
+margin-bottom: 1.2em;
+}
+
+
 
 
 
