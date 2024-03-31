@@ -229,10 +229,66 @@ word-spacing: 15px;
 letter-spacing: 0.038em;
 }
 
-.section2 {
-    background-color: #8C4573;
-    min-height: 12px;
+
+
+.TitleF{
+    /* font-size; */
+/* What will you learn at 7 WEEKS OF COURAGE */
+    margin-top: 1.2em;
+    color:#ffffff;
+    font-weight: 800;
+margin-bottom: 1.5em;
+font-size: 164px;
+border-radius: 16px;
+padding: 10px;
+word-spacing: 15px;
+letter-spacing: 0.038em;
 }
+
+.section1b{
+text-align: center;
+background-color: #432137;
+
+}
+
+.section1b h3 {
+padding: 50px;
+font-size: 82px;
+color: #F3E0D2;
+
+}
+.section2 {
+  height:1440px;
+  background-size: cover;
+    background-position-x:left;
+    background-position-y:-0.45em;
+  /* background-image: url(img/blue-and-bright-orange-clouds.jpg); */
+  background-image: url(img/clouds-3.png);
+
+
+/* should push the picture in the middle. */
+
+}
+
+.women-earth{
+
+margin: auto;
+width: 634px;
+height: 560px;
+border-radius: 1px;
+
+}
+
+
+.video-section{
+margin: auto;
+width: 1280px;
+height: 780px;
+border-radius: 2%;
+margin-top: 20px;
+
+}
+
 
 
 .mstatement{
@@ -251,7 +307,7 @@ min-height: 56px;
 
 .section3 {
     /* background-color: #F3E0D2; */
-
+margin-top: 45.5rem;
     color: rgb(48, 45, 45);
 }
 
@@ -536,3 +592,39 @@ font-weight: 800;
         color: black;
     }
 
+
+
+
+
+
+
+    footer {
+      /*navigation  */
+      background-color: #80305b;
+      color: white;
+      padding: 20px;
+      position: fixed;
+      bottom: 0;
+      text-align: center;
+      width: 100%;
+      font-size: larger;
+      padding:0.8%  ;
+        
+  }
+  
+  nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+  }
+  
+  nav ul li {
+      display: inline;
+      margin-right: 60px;
+  }
+  
+  nav ul li a {
+      color: white;
+      text-decoration: none;
+  }
+  
