@@ -596,7 +596,7 @@ font-weight: 800;
 
 
 
-
+/* navigation at the footer */
 
     footer {
       /*navigation  */
@@ -628,6 +628,11 @@ font-weight: 800;
       text-decoration: none;
   }
   
+
+
+
+
+/* styles for the text message number input form  */
 
   form {
     text-align: center;
@@ -671,4 +676,37 @@ button:active {
   color: #000;
   text-align: center;
   margin-bottom: 20px;
+}
+
+
+/* Social media icons */
+
+.sm-icon {
+  background-color: #80305b;
+  width: 40px; /* Adjust width as needed */
+  height: 40px; /* Adjust height as needed */
+  display: inline-block; /* Ensure icons are displayed inline */
+  margin-right: 10px; /* Add space between icons */
+  border-radius: 50%; /* Make icons circular */
+  text-align: center; /* Center content vertically and horizontally */
+  line-height: 40px; /* Center content vertically */
+  transition: background-color 0.3s ease; /* Add smooth transition effect */
+}
+
+.sm-icon:hover {
+  background-color: #a74283; /* Brighter background color on hover */
+}
+
+/* Add specific styles for each social media icon */
+/* Assuming you have different icons with specific class names */
+.facebook-icon {
+  /* Add specific styles for Facebook icon if needed */
+}
+
+.twitter-icon {
+  /* Add specific styles for Twitter icon if needed */
+}
+
+.instagram-icon {
+  /* Add specific styles for Instagram icon if needed */
 }
