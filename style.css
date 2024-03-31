@@ -628,3 +628,47 @@ font-weight: 800;
       text-decoration: none;
   }
   
+
+  form {
+    text-align: center;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+
+button {
+    background-color: #80305b;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #5b1d3e;
+}
+
+button:active {
+    background-color: #80305b;
+}
+
+
+.heading {
+  padding:100px;
+  color: #80305b;
+  text-align: center;
+  font-size: 105px;
+}
+
+.description {
+  color: #000;
+  text-align: center;
+  margin-bottom: 20px;
+}
