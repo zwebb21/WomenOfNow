@@ -57,3 +57,6 @@ Today work 3/31/24
 
 change the social media icons in the footer section to the circle images. 
 work on the footer section alil bit more. 
+
+color code for sm-icons
+#A6507E - hover
