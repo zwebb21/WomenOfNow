@@ -10,7 +10,48 @@
 
 
 
-@media screen and (max-width:300px){
+@media screen and (max-width:428px){
+
+.title
+
+  .section1 {
+    /* title banner section z */
+    background-color: #731A44;
+    height: fit-content;
+    padding: 30px ;
+    text-align: center;
+    color: #fff;
+    font-size: x-small;
+  }
+
+  .Join-Title-Banner{
+    line-height: 1.6em;
+    padding: 20px;
+    letter-spacing: 0.62px;
+    font-weight: 520;
+    margin-bottom: 1.2em;
+    }
+    
+/* section1  */
+
+.title-para{
+  /* letter-spacing: 0.082em; */
+  font-size: 1.20em;
+  font-weight: 400;
+  text-align:center;
+  padding: 20px;
+
+  
+  }
+
+
+  .section1a{
+
+width: fit-content;
+
+  }
+/* section1a  */
+
 
 .Titled{
 
@@ -188,7 +229,7 @@ color: #F3E0D2;
     .section1a{
 
       height:2158px;
-      background-position-y: 36.5em;
+      background-position-y: 46.5em;
 
       }
 

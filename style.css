@@ -143,9 +143,9 @@ width: 500px;
             min-height: 1780px;
             padding: 12px;
                background-size: contain;
-              background-position-y: 18.5em;
+              background-position-y: 25.5em;
               background-blend-mode:multiply;
-              background-image: url("/img/women-nature-2/Diverse-Group-of-Women.jpg");
+              background-image: url("img/women-nature-2/Diverse-Group-of-Women.jpg");
 
 /*              in github pages this image wont show unless i add a dot infront of it. 
              */
@@ -191,6 +191,7 @@ font-weight: 800;
 color: #8C4573;
 border: #432137;
 border-width: 8px solid;
+font-family: "Oswald", sans-serif;
 }
 
 
@@ -206,9 +207,10 @@ padding: 20px;
 /* margin-left: 1425px; */
 font-size:42px;
 letter-spacing: 0.56rem;
-font-weight: 300;
+font-weight: 400;
 color:#8C4573;
 margin-top: 1.23em;
+font-family: "oswald",sans-serif;
 }
 /* End of section 1 css  */
 
@@ -632,11 +634,23 @@ font-weight: 800;
   nav ul li a {
       color: white;
       text-decoration: none;
+      padding: 11px;
   }
   
 
 
 
+
+  .navigation ul li a:hover {
+    /* color: #784b78; color on hover */
+border-radius: 95px;
+    background-color: #450e28;
+    opacity: 0.8; /* reduce opacity on hover */
+    transition: color 4.9s ease, opacity 0.2s ease; /* smooth transition */
+}
+
+
+                                          /* End of navigation css styles here  */
 
 /* styles for the text message number input form  */
 
@@ -713,13 +727,11 @@ margin-right: 6.5rem;
 
 /* Add specific styles for each social media icon */
 /* Assuming you have different icons with specific class names */
-.facebook-icon {
+/* .facebook-icon {
   /* Add specific styles for Facebook icon if needed */
-}
+ 
 
-.twitter-icon {
-  /* Add specific styles for Twitter icon if needed */
-}
+
 
 .instagram-icon {
   margin-bottom: 0.8rem;
@@ -754,3 +766,5 @@ padding: 20px;
 font-size: 59px;
 font-weight: 800;
 }
+
+
