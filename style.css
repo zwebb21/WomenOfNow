@@ -201,7 +201,7 @@ font-size: 1.33em;
 font-weight: 400;
 text-align:center;
 padding: 20px;
-
+font-family: "Oswald", sans-serif;
 }
 .Titleb , .Titlec{
 /* margin-left: 1425px; */
@@ -229,6 +229,8 @@ border: 1px solid rgb(255, 255, 255); /* Set the border width, style, and color 
 padding: 10px;
 word-spacing: 15px;
 letter-spacing: 0.038em;
+
+font-family: "Oswald", sans-serif;
 }
 
 
@@ -245,6 +247,7 @@ border-radius: 16px;
 padding: 10px;
 word-spacing: 15px;
 letter-spacing: 0.038em;
+font-family: "Oswald", sans-serif;
 }
 
 .section1b{
@@ -763,8 +766,28 @@ border-left: #731a44   15px solid;
 
 .special-msg{
 padding: 20px;
-font-size: 59px;
+font-size: 89px;
 font-weight: 800;
+margin-bottom: 81px;
+font-family: "Courgette", cursive;
+
 }
 
 
+.special-msg-2{
+  padding: 20px;
+  font-size: 89px;
+  font-weight: 800;
+margin-bottom: 3em;
+
+font-family: "Courgette", cursive;
+}
+
+
+
+.special-msg-bold{
+
+color: #80305b;
+
+
+}
