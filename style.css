@@ -52,13 +52,24 @@ background-color:#8973D9;
 padding: 20px;
 border-radius: 20px;
 margin-bottom: 1.5rem;
+background-color: rgba(86, 31, 134, 0.261); /* Adjust the last value (0.5) to change opacity */
+/* border: 5px solid hsl(253, 100%, 73%); */
+border: 5px solid hsl(253, 100%, 73%);
+/* Other styling properties */
 
 
-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5); /* Add drop shadow */
+
+box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.848); /* Add drop shadow */
   padding: 20px;
 }
 
 
+.card-text{
+
+font-size:x-large;
+font-weight: 500;
+
+}
 
 .bible-study-box-list {
 letter-spacing: 0.07em;
@@ -253,7 +264,7 @@ font-family: "Oswald", sans-serif;
 .section1b{
 text-align: center;
 background-color: #432137;
-background-image: url(img/floral-designm.svg);
+/* background-image: url(img/floral-designm.svg); */
 height: auto;
 background-position-y: 36.5em;
 background-size: 164px;
@@ -318,7 +329,7 @@ min-height: 56px;
 
 .section3 {
     /* background-color: #F3E0D2; */
-margin-top: 45.5rem;
+margin-top: 7.5rem;
     color: rgb(48, 45, 45);
 }
 
@@ -791,3 +802,8 @@ color: #80305b;
 
 
 }
+
+
+/* Here we going to edit the nav join btn to make it more noticable. and stand out
+*/
+
