@@ -181,6 +181,33 @@ width: 500px;
                
             }
 
+
+
+/* join button */
+
+
+.Join-btn-2{
+         text-align: center;
+  margin-top: 5.5em;
+  width: 65%;
+border-radius: 65px;
+background-color: #8C4573;
+padding: 20px;
+font-weight: 800;
+color: white;
+
+margin: auto;
+font-size: 148px;
+}
+
+
+.Subscribe-Phone{
+margin: auto;
+text-align: center;
+
+}
+
+
 .Join-Title-Banner{
 line-height: 1.6em;
 padding: 20px;
@@ -576,10 +603,10 @@ font-weight: 800;
             margin-top: 15px;
             padding: 15px;
               margin-right: 55px;
-            color: goldenrod;
+            color: rgb(244, 244, 244);
             list-style: circle;
             text-decoration: underline;
-
+/* updated this to white  */
           }
 
 
@@ -769,7 +796,7 @@ border-radius: 25px;
 
 
 #Text-Number{
-
+margin: auto;
 border-radius: 85%;
 border-left: #731a44   15px solid;
 

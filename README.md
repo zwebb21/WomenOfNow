@@ -46,6 +46,17 @@ Should work on sma
 .bible-study-box = on line50 css.
 
 
+
+
+
+
+
+
+
+
+
+
+
 ------------------------------------
 05/04/24
 
@@ -63,10 +74,10 @@ Should work on sma
 
 
 
-✅ ✅ ✅ 4- The "Evolving" line -- say "God Has Given You' and remove the scrolls in the background [ basically chang the evolving line to "god has given you {✅ }
+✅ ✅ ✅ 4- The "Evolving" line -- say "God Has Given You' and remove the scrolls in the background  basically chang the evolving line to "god has given you {✅ }
 
 
-✅ ✅ ✅ ✅ ✅ 5 - Remove the clouds and "Special Message"  [5]
+✅ ✅ ✅ ✅ ✅ 5 - Remove the clouds and "Special Message"  
 
 
 
@@ -74,15 +85,17 @@ Should work on sma
 
 
 
-✅ ✅ ✅ ✅ ✅ ✅ 7 - Put the sign up box right at the top of the page where the button says "Sign Up" [5]
+✅ ✅ ✅ ✅ ✅ ✅ 7 - Put the sign up box right at the top of the page where the button says "Sign Up" 
 
 
 
-8 - Make the links at the bottom like privacy policy and such white. Also some of this should be handled by the overall website style guide and not specific to the landing page. The page needs to get put into the website admin area so we can see how it fits in the overall template. [2]
+✅ ✅ ✅ ✅ ✅ 8 - Make the links at the bottom like privacy policy and such white. Also some of this should be handled by the overall website style guide and not specific to the landing page. The page needs to get put into the website admin area so we can see how it fits in the overall template. 
 
 
 
-9 - Purple boxes - God's, Eve's -- capitalization and apostrophes.  Consider 4 rows of 2 boxes on each row so they all fit better. 
+✅ ✅ ✅ ✅  9 - Purple boxes - God's, Eve's -- capitalization and apostrophes.  Consider 4 rows of 2 boxes on each row so they all fit better. 
 
-10 - Have the sign up box at the bottom of the page also.  [5]
 
+✅ ✅ ✅ ✅ ✅ ✅ 10 - Have the sign up box at the bottom of the page also.  
+
+((.footer-links mt-2))= is the class name for step [8]
