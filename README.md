@@ -70,7 +70,7 @@ Should work on sma
 
 
 
-3 - The large photo of the women should be a part of the main Hero part of the page at the top or we should nix it. (i need to ask for more specifics. where at the main. )
+✅ ✅ ✅ ✅ ✅ 3 - The large photo of the women should be a part of the main Hero part of the page at the top or we should nix it. (i need to ask for more specifics. where at the main. )
 
 
 

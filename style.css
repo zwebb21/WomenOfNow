@@ -16,6 +16,11 @@ padding: 0 1em;
 
 }
 
+ul {
+
+
+    list-style: none;
+}
 
 a {
 
@@ -80,6 +85,8 @@ font-weight: 500;
 }
 
 
+/*  */
+
 .wk-title {
 
 
@@ -95,11 +102,6 @@ height: 60px;
 padding: 2px;
 }
 
-ul {
-
-
-    list-style: none;
-}
 .studies{
 margin:0;
 padding: 150px;
@@ -138,6 +140,7 @@ justify-content: space-between;
 width: 500px;
 }
 
+
 .section1 {
     /* title banner section z */
     background-color: #731A44;
@@ -147,14 +150,37 @@ width: 500px;
     color: #fff;
 }
 
+#Hero-Titles{
+
+margin-top: 815px;
+font-size: 2.5em;
+
+position: relative;
+z-index: 1;
+background-color:#8973D9;
+padding: 20px;
+border-radius: 20px;
+margin-bottom: 1.5rem;
+background-color: rgba(86, 31, 134, 0.261); /* Adjust the last value (0.5) to change opacity */
+/* border: 5px solid hsl(253, 100%, 73%); */
+border: 5px solid hsl(253, 100%, 73%);
+/* Other styling properties */
+
+
+
+box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.848); /* Add drop shadow */
+  padding: 20px;
+
+}
             .section1a {
+   z-index: -2;
 
                 /* This we be the hero image section or hero section  */
 
             min-height: 1780px;
             padding: 12px;
-               background-size: contain;
-              background-position-y: 25.5em;
+         
+              /* background-position-y: 25.5em; */
               background-blend-mode:multiply;
               background-image: url("img/women-nature-2/Diverse-Group-of-Women.jpg");
 
@@ -169,28 +195,36 @@ width: 500px;
 
 
             .Join-btn{
-                 
-                    height: 2.2em;
+                    font-size: 8EM;
+                    
                 border-radius: 65px;
             background-color: #8C4573;
             padding: 20px;
-            font-weight: 300;
+            font-weight: 800;
             color: white;
-            width: 220px;
+                width:fit-content;
                 margin: auto;
-               
+               padding: 20PX;
             }
 
 
+            
+            .Join-Title-Banner{
+            line-height: 1.6em;
+            padding: 20px;
+            letter-spacing: 0.62px;
+            font-weight: 220;
+            margin-bottom: 1.2em;
+            }
 
-/* join button */
+/* join button2 */            
 
 
 .Join-btn-2{
          text-align: center;
-  margin-top: 5.5em;
+  margin-top: 5.5em;       
   width: 65%;
-border-radius: 65px;
+border-radius: 65px;  
 background-color: #8C4573;
 padding: 20px;
 font-weight: 800;
@@ -202,38 +236,31 @@ font-size: 148px;
 
 
 .Subscribe-Phone{
-margin: auto;
+margin: auto;  
 text-align: center;
 
 }
 
 
-.Join-Title-Banner{
-line-height: 1.6em;
-padding: 20px;
-letter-spacing: 0.62px;
-font-weight: 220;
-margin-bottom: 1.2em;
-}
 
 
 
 
-
-.Titlea {
+h2.Titlea {
 /* margin-left: 1425px; */
 margin-top: 0.1em;
-font-size:152px;
-letter-spacing: 0.56rem;
+font-size:192px;
+word-spacing: 4.2rem;
+letter-spacing: .096rem;
 font-weight: 800;
 color: #8C4573;
-border: #432137;
-border-width: 8px solid;
+
 font-family: "Oswald", sans-serif;
 }
 
 
 .title-para{
+  color: white;
 letter-spacing: 0.082em;
 font-size: 1.33em;
 font-weight: 400;
@@ -246,7 +273,7 @@ font-family: "Oswald", sans-serif;
 font-size:42px;
 letter-spacing: 0.56rem;
 font-weight: 400;
-color:#8C4573;
+color:#c20b82;
 margin-top: 1.23em;
 font-family: "oswald",sans-serif;
 }
@@ -295,6 +322,8 @@ background-color: #432137;
 height: auto;
 background-position-y: 36.5em;
 background-size: 164px;
+
+
 }
 
 
@@ -372,7 +401,7 @@ margin-top: 7.5rem;
 
 
 #section3-info{
-
+min-width: fit-content;
 background-color: #f0e5eed1;
 border-radius: 65px;
 margin-top: 2.2em;
@@ -648,6 +677,7 @@ font-weight: 800;
 /* navigation at the footer */
 
     footer {
+      z-index: 1;
       /*navigation  */
       background-color: #80305b;
       color: white;
