@@ -1,481 +1,505 @@
- /* Reset CSS */
- body,
- html,
- p,
- h1,
- h2,
- h3
-  {
+:root {
+    --plum: #731a44;
+    --berry: #8c4573;
+    --rose: #a61f5e;
+    --lavender: #8973d9;
+    --blush: #f3e0d2;
+    --ink: #2f2530;
+    --muted: #655a64;
+    --paper: #fffaf7;
+    --white: #ffffff;
+    --gold: #b2842a;
+    --shadow: 0 18px 45px rgba(47, 37, 48, 0.14);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
     margin: 0;
-    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--ink);
+    background: var(--paper);
+    line-height: 1.6;
 }
 
-.container{
-
-padding: 0 1em;
-
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
-
 
 a {
-
-text-decoration: none;
-
+    color: inherit;
+    text-decoration: none;
 }
-/* Section Backgrounds */
 
-/* Color theme hex
-#8C4573 /dark violet
-#C429D9
-#CE7ED9
-#8973D9 
-#F2F2F2 /white
-*/
+p,
+h1,
+h2,
+h3,
+figure,
+blockquote {
+    margin: 0;
+}
 
-/* General Styles */
-/* .container {
-    
+.site-alert {
+    background: var(--plum);
+    color: var(--white);
+    padding: 0.85rem 1rem;
+    text-align: center;
+}
+
+.site-alert p {
+    font-size: clamp(1rem, 1.8vw, 1.25rem);
+    font-weight: 700;
+}
+
+.section {
+    padding: clamp(3rem, 7vw, 6rem) 1rem;
+}
+
+.section__inner {
+    width: min(1120px, 100%);
     margin: 0 auto;
-    overflow: hidden;
-} */
-.bible-study-box{
-background-color:#8973D9;
-padding: 20px;
-border-radius: 20px;
-margin-bottom: 1.5rem;
-
-
-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5); /* Add drop shadow */
-  padding: 20px;
-}
-.bible-study-box-list {
-letter-spacing: 0.07em;
-font-size: x-large;
-color: white;
-font-weight: 500;
-
 }
 
-
-.wk-title {
-
-
-    font-size: 154px;
+.section h2 {
+    color: var(--berry);
+    font-size: clamp(2rem, 5vw, 3.25rem);
     font-weight: 800;
-color: #F3E0D2;
-
-}
-.icon{
-
-width:60px;
-height: 60px;
-padding: 2px;
+    line-height: 1.1;
+    text-align: center;
 }
 
-ul {
+.section h3 {
+    color: var(--plum);
+    font-size: clamp(1.15rem, 2.4vw, 1.55rem);
+    line-height: 1.2;
+}
 
+.section-lede {
+    max-width: 720px;
+    margin: 1rem auto 0;
+    color: var(--muted);
+    font-size: 1.1rem;
+    text-align: center;
+}
 
+.hero {
+    display: grid;
+    grid-template-columns: minmax(0, 0.9fr) minmax(320px, 1.1fr);
+    gap: clamp(2rem, 5vw, 4rem);
+    align-items: center;
+    width: min(1240px, 100%);
+    margin: 0 auto;
+    padding: clamp(2rem, 5vw, 5rem) 1rem;
+}
+
+.hero__media img {
+    width: 100%;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+}
+
+.hero__content {
+    text-align: center;
+}
+
+.eyebrow {
+    color: var(--gold);
+    font-weight: 800;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+}
+
+.hero h1 {
+    margin-top: 0.5rem;
+    color: var(--berry);
+    font-size: clamp(3rem, 9vw, 6.75rem);
+    font-weight: 900;
+    line-height: 0.95;
+    text-transform: uppercase;
+}
+
+.hero__intro {
+    max-width: 620px;
+    margin: 1.25rem auto 0;
+    color: var(--muted);
+    font-size: clamp(1.05rem, 2vw, 1.3rem);
+}
+
+.hero h2 {
+    margin-top: 1.5rem;
+    color: var(--berry);
+    font-size: clamp(1.65rem, 4vw, 2.7rem);
+    font-weight: 700;
+    line-height: 1.15;
+    text-transform: uppercase;
+}
+
+.cta-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 3.25rem;
+    margin-top: 1.75rem;
+    padding: 0.85rem 1.8rem;
+    border-radius: 999px;
+    background: var(--berry);
+    color: var(--white);
+    font-size: 1.05rem;
+    font-weight: 800;
+    box-shadow: 0 12px 25px rgba(140, 69, 115, 0.25);
+    transition: transform 160ms ease, background-color 160ms ease;
+}
+
+.cta-button:hover,
+.cta-button:focus {
+    background: var(--plum);
+    color: var(--white);
+    transform: translateY(-2px);
+}
+
+.cta-button--light {
+    background: var(--white);
+    color: var(--plum);
+}
+
+.mission {
+    background: var(--rose);
+    color: var(--white);
+}
+
+.mission h2,
+.mission p {
+    color: var(--white);
+}
+
+.mission p {
+    max-width: 930px;
+    margin: 1rem auto 0;
+    font-size: clamp(1.25rem, 3vw, 2rem);
+    font-weight: 700;
+    line-height: 1.45;
+    text-align: center;
+}
+
+.schedule {
+    background: var(--white);
+}
+
+.schedule-grid,
+.study-grid,
+.caption-grid {
+    display: grid;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.schedule-grid {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+
+.schedule-grid article,
+.study-grid article {
+    min-width: 0;
+    border-radius: 8px;
+    background: var(--paper);
+    padding: 1.15rem;
+    box-shadow: 0 8px 24px rgba(47, 37, 48, 0.08);
+}
+
+.schedule-grid p,
+.study-grid p {
+    margin-top: 0.5rem;
+    color: var(--muted);
+}
+
+.founder {
+    background: #f7edf4;
+}
+
+.founder__grid {
+    display: grid;
+    grid-template-columns: minmax(280px, 0.95fr) minmax(0, 1.05fr);
+    gap: clamp(1.5rem, 4vw, 3rem);
+    align-items: start;
+}
+
+.instagram-panel,
+.founder-card {
+    min-width: 0;
+    border-radius: 8px;
+    background: var(--white);
+    padding: clamp(1.25rem, 3vw, 2rem);
+    box-shadow: var(--shadow);
+}
+
+.instagram-panel h2 {
+    margin-bottom: 1rem;
+    font-size: clamp(1.8rem, 4vw, 2.5rem);
+}
+
+.instagram-media {
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 540px !important;
+    margin: 0 auto !important;
+}
+
+.founder-card {
+    display: grid;
+    gap: 1.25rem;
+}
+
+.founder-card img {
+    width: min(320px, 100%);
+    aspect-ratio: 1;
+    margin: 0 auto;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.founder-card h2 {
+    text-align: left;
+}
+
+.founder-card p {
+    margin-top: 0.9rem;
+    color: var(--muted);
+    font-size: 1.05rem;
+}
+
+.founder-card__role {
+    color: var(--plum) !important;
+    font-weight: 800;
+}
+
+.study {
+    background: var(--blush);
+}
+
+.study__image {
+    width: min(740px, 100%);
+    max-height: 380px;
+    margin: 2rem auto 0;
+    border-radius: 8px;
+    object-fit: cover;
+    box-shadow: var(--shadow);
+}
+
+.study-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.study-grid article {
+    background: var(--lavender);
+    color: var(--white);
+}
+
+.study-grid h3,
+.study-grid p {
+    color: var(--white);
+}
+
+.courage {
+    background: var(--white);
+}
+
+.caption-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.caption-grid figure {
+    overflow: hidden;
+    border-radius: 8px;
+    background: var(--paper);
+    box-shadow: var(--shadow);
+}
+
+.caption-grid img {
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+}
+
+.caption-grid figcaption {
+    padding: 1rem;
+    color: var(--plum);
+    font-size: 1.05rem;
+    font-weight: 800;
+    line-height: 1.35;
+}
+
+.scripture {
+    background: #151217;
+    color: var(--white);
+}
+
+.scripture h2 {
+    color: var(--gold);
+    text-align: left;
+}
+
+.scripture__grid {
+    display: grid;
+    grid-template-columns: 0.8fr minmax(240px, 0.8fr) 1.2fr;
+    gap: clamp(1.5rem, 4vw, 3rem);
+    align-items: center;
+}
+
+.scripture img {
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+}
+
+.scripture blockquote {
+    color: var(--white);
+    font-size: clamp(1.35rem, 3vw, 2.15rem);
+    font-weight: 700;
+    line-height: 1.35;
+}
+
+.bottom-cta {
+    background: var(--rose);
+    color: var(--white);
+    text-align: center;
+}
+
+.bottom-cta h2,
+.bottom-cta p {
+    color: var(--white);
+}
+
+.bottom-cta p {
+    max-width: 680px;
+    margin: 1rem auto 0;
+    font-size: 1.15rem;
+}
+
+.site-footer {
+    background: var(--plum);
+    color: var(--white);
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+.logo-caption {
+    color: var(--gold);
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.footer-logo {
+    width: min(180px, 70vw);
+    margin: 1rem auto 0;
+}
+
+.social-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem 1.5rem;
+    margin: 2rem 0 0;
+    padding: 0;
     list-style: none;
 }
-.studies{
-margin:0;
-padding: 150px;
-text-align: center;
-flex-direction: row;
-justify-content: center;
-text-decoration: none;
-justify-content: space-between;
 
-
-}
-
-
-
-
-
-
-
-
-/* Paragraph Styles */
-.section p {
-    /* font-size: 28px; */
-    margin-bottom: 40px;
-}
-/* Section Styles */
-.section {
-    padding: 100px ;
-    text-align: center;
-    color: #fff;
-}
-
-
-
-.multiwomen-img{
-
-min-height: fit-content;
-
-}
-
-.section1 {
-    /* title banner section z */
-    background-color: #731A44;
-    height: 122px;
-    padding: 30px 0;
-    text-align: center;
-    color: #fff;
-}
-
-            .section1a {
-
-                /* This we be the hero image section or hero section  */
-
-            /* background-image: url("./img/multi-women.jpg"); */
-            min-height: 1280px;
-            padding: 12px;
-            background-image: url("./img/WON1.png");
-
-
-/*              in github pages this image wont show unless i add a dot infront of it. 
-             */
-            height: auto;
-            padding: 140px;
-                text-align: center;
-                background-repeat: no-repeat;
-                background-color: #f8f7f7;
-            }
-
-
-            .Join-btn{
-                 
-                    height: 2.2em;
-                border-radius: 65px;
-            background-color: #8C4573;
-            padding: 20px;
-            font-weight: 300;
-            color: white;
-            width: 220px;
-                margin: auto;
-               
-            }
-
-
-
-.Titlea {
-/* margin-left: 1425px; */
-margin-top: 2.2em;
-font-size:152px;
-letter-spacing: 0.56rem;
-font-weight: 800;
-color: #8C4573;
-border: #432137;
-border-width: 8px solid;
-}
-
-
-.title-para{
-letter-spacing: 0.082em;
-font-size: 1.33em;
-font-weight: 400;
-text-align:center;
-padding: 20px;
-
-}
-.Titleb , .Titlec{
-/* margin-left: 1425px; */
-font-size:42px;
-letter-spacing: 0.56rem;
-font-weight: 300;
-color:#8C4573;
-margin-top: 1.23em;
-}
-/* End of section 1 css  */
-
-
-
-.Titled{
-    font-size: 35px;
-    color:#8C4573;
+.social-icons a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--white);
     font-weight: 800;
-
 }
 
-.section2 {
-    background-color: #A61F5E;
+.social-icons img {
+    width: 32px;
+    height: 32px;
 }
 
-
-.mstatement{
-color: rgb(255, 252, 252);
-font-size: x-large;
-font-weight: 900;
-padding: 94px;
-line-height: 4em;
-letter-spacing: 2.9px;
-
-
+.footer-note {
+    max-width: 760px;
+    margin: 1.75rem auto 0;
+    color: rgba(255, 255, 255, 0.78);
 }
 
-
-
-
-.section3 {
-    /* background-color: #F3E0D2; */
-
-    color: rgb(48, 45, 45);
+.footer-copyright {
+    margin-top: 1rem;
+    color: rgba(255, 255, 255, 0.9);
 }
 
-.section3 p {
-
-    margin-top: 3em;
-    font-size: xx-large;
-    font-weight: 400;
-    line-height: 2.2em;
-    padding:30px;
+@media (max-width: 1100px) {
+    .schedule-grid,
+    .study-grid,
+    .caption-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
 }
 
-
-
-#section3-info{
-
-background-color: #f0e5eed1;
-border-radius: 65px;
-margin-top: 3.2em;
-height: fit-content;
-}
-
-.embed{
-/* the instagram feed embed */
-
-padding: 120px;
-margin: auto;
-}
-
-
-
-.Donna-Title{
-
-font-size:9em;
-font-weight: 600;
-color:#8C4573;
-
-}
-
-/* End of section 3  */
-
-.section4 {
-    background-color:  #F3E0D2;;
-
-    background-image: url(img/womengroupgrey6.png);
-    background-blend-mode: normal;
-background-size: cover;
-
-  }
-
-
-
-
-.section5 {
-   background-color: #731A44;
-
-    
-
-
-}
-
-
-
-.section6 {
-
-padding: 20px;
-
-}
-
-
-
-.section7{
-
-background-color: black;
-
-
-/* section with the gold praying women hands */
-
-}
-
-#bible-qoute2{
-
-margin-top:14rem;
-
-}
-
-.gold-bible-qoute{
-color: goldenrod;
-
-}
-
-
-
-
-
-#praying-left-text{
-
-margin: auto;
-
-
-}
-
-.section7 h1{
-padding: 20px;
-margin-top: 2.2em;
-font-size: 85px;
-color: white;
-font-weight: 500;
-}
-
-#img-taglines{
-margin-top: 2.3em;
-padding: 10px;
-margin-bottom: 6.3em;
-
-}
-.section6 img{
-/* trg section 6 images. 
-
-
-
-*/
-  margin-top: 23px;
-  border-radius: 25px;
-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5); /* Add drop shadow */
-
-
-
-}
-
-
-
-
-/* Heading Styles */
-.section h2 {
-    font-size: 36px;
-    margin-bottom: 20px;
-}
-
-        .section2 p{
-
-
-            color: #432137;
-            font-weight:800 ;
-            font-size: x-large;
-                text-align: center;
-        }
-
-
-
-        .donnabw{
-
-            border-radius: 50%;
-            width: 500px;
-            height: 500px;
-            padding: 20px;
-        }
-
-        .bold-word{
-
-color:#8C4573;
-font-weight: 800;
-        }
-
-
-
-        .gold-word{
-
-color:goldenrod;
-font-weight: 800;
-        }
-
-
-
-        .social-icons {
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
-          }
-          
-          .social-icons li {
-            display: inline-block;
-            margin-right: 10px; /* Adjust spacing between icons */
-          }
-          
-          .social-icons li:last-child {
-            margin-right: 0; /* Remove margin from the last icon */
-          }
-          
-          .social-icons li a {
-            color: goldenrod;
-            font-size: x-large;
-            letter-spacing: 0.15em;
-            font-weight: 500;
-            text-decoration: none;
-            
-          }
-          
-          .social-icons li a img {
-            width: 40px; /* Adjust the size of the icons */
-            height: 40px; /* Adjust the size of the icons */
-          }
-          
-          .footer-links {
-            color: white;
-            font-size:x-large ;
-            font-weight:400 ;
-            display: flex;
-          flex-direction: row;
-            padding: 0;
-            justify-content: center; /* Center the content horizontally */            
-            flex: auto;
-            /* privact and terms and conditions links here.  */
-        }
-        
-        
-        .footer-links a {
-            margin-top: 15px;
-            padding: 15px;
-              margin-right: 55px;
-            color: goldenrod;
-            list-style: circle;
-            text-decoration: underline;
-
-          }
-
-
-          .logo-caption{
-                color: goldenrod;
-                
-                font-size: medium;
-          }
-
-          .footer-copyright{
-
-            font-size: larger;
-            color: black;
-          }
-
-
-          .bible-study-clip{
-            border-radius:45px;
-            /* filter: blur(1px); Adjust the blur amount as needed */
-            z-index: 1;
-          }
-
-          .path
-        {   margin: auto;
-            width: auto;
-     
-        }
-
-        .dark
-    {
-
-        color: black;
+@media (max-width: 860px) {
+    .hero,
+    .founder__grid,
+    .scripture__grid {
+        grid-template-columns: 1fr;
     }
 
+    .hero__media {
+        order: 2;
+    }
+
+    .hero__content {
+        order: 1;
+    }
+
+    .founder-card h2,
+    .scripture h2 {
+        text-align: center;
+    }
+
+    .scripture blockquote {
+        text-align: center;
+    }
+}
+
+@media (max-width: 620px) {
+    .section {
+        padding: 2.5rem 1rem;
+    }
+
+    .schedule-grid,
+    .study-grid,
+    .caption-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .hero {
+        padding-top: 2rem;
+    }
+
+    .hero h1 {
+        font-size: clamp(2.75rem, 17vw, 4.5rem);
+    }
+
+    .hero h2 {
+        font-size: 1.55rem;
+    }
+
+    .cta-button {
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .instagram-panel,
+    .founder-card {
+        padding: 1rem;
+    }
+}
